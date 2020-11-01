@@ -1,0 +1,433 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.clear::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    text-align: center;
+}
+.mid-content{
+    width: 1300px;
+    
+}
+img{
+    max-width: 100%;
+
+}
+a{
+    display: block;
+    text-decoration: none;
+    
+}
+.textr{
+    text-align: right;
+}
+.textl{
+    text-align: left;
+
+}
+body h1 h2 h3 h4 h5 h6 a {
+    font-family: sans-serif;
+}
+/* begin main css*/
+.header{
+   background-color: white;
+   height:70px;
+   border-bottom:snow 5px solid;
+}
+.header-logo{
+width: 30%;
+position: relative;
+left: -55px;
+
+
+}
+.header-logo img{
+    height: 50px;
+    float: left;
+   margin-left: 15px;
+   margin-top: 0px;
+}
+.header-logo span{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+   font-weight: 100;
+    display: block;
+}
+.logo{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+.header a{
+    color: #010101;
+}
+.primary-menu{
+width: 60%;
+}
+.primary-menu ul{}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin-top: 25px;
+    font-size: 18px;
+    
+}
+
+.btn{
+width: 10%;
+margin-top: 20px;
+}
+.btn-buy{
+    font-size: 15px;
+    display: block;
+    border: 1px solid blue;
+    padding: 10px 0px;
+    border-radius: 10px;
+    
+}
+.banner{
+    background-image: url('mbr-4.jpg');
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: center;
+    position: relative;
+   
+  
+}
+.banner-img span{
+    font-size: 30px;
+    
+
+}
+.banner-img h1{
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: white;
+}
+.banner-img h2{
+    margin-bottom: 20px;
+    color: white;
+}
+.icon ul li{
+display: inline-block;
+    
+}
+.icon ul li a{
+    display: block;
+    padding: 20px 25px;
+    border: 1px white solid;
+    color: gray;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.icon ul li span{
+   font-size: 24px;
+}
+.banner-overlay::after{
+    content: '';
+ bottom: 510px;
+    width: 400%;
+    height: 510px;
+    background-color: black;
+   position: relative;
+   opacity: 0.4;
+   z-index:-1 ;
+}
+
+.vedio-section{
+padding: 50px 20px;
+margin: 30px 0px;
+}
+.video{
+    max-width: 50%;
+    margin-right: 20px;
+}
+.video-title{
+    max-width: 50%;
+}
+.video-title h1{
+font-size: 50px;
+margin-bottom: 35px;
+line-height: 1.2em;
+font-weight: 300;
+
+}
+.video-title p{
+    font-size: 24px;
+    opacity: 0.5;
+    line-height: 1.4em;
+
+}
+.before-service{
+    padding: 50px 20px;
+}
+.srevice-heading h1{
+    font-size: 55px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.srevice-heading h2{
+    font-size: 27px;
+    margin-bottom: 40px;
+    
+}
+.service-items{
+    margin: 70px 0px;
+    padding: 20px;
+
+}
+.service-box{
+    width: 29.3%;
+    box-shadow: 2px 2px 1px  #aaaaaa;
+    margin: 20px;
+    padding: 80px 0px;
+    box-sizing: border-box;
+    background-color: #dddddd;
+  
+}
+
+.s-icon{
+   font-size: 50px;
+    float: left;
+    height: 80px;
+    margin-right: 10px;
+}
+.s-content{
+    text-align: center;
+    
+}
+.s-content h2{
+    margin-bottom: 20px;
+   
+
+}
+.s-content p{
+    font-size: 20px;
+    color: gray;
+    line-height: 1.4em;
+
+}
+.p-list{
+    padding: 50px;
+   
+}
+.prizing-heading h1{
+    font-size: 55px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.prizing-heading h2{
+    font-size: 27px;
+    margin-bottom: 40px;
+    
+}
+
+.prizing-list{
+  
+
+}
+.list1{
+    Min-width: 30%;
+   padding: 30px 0px;
+   box-sizing: border-box;
+   margin-right:20px;
+   box-shadow: 2px 2px 1px  #aaaaaa;
+   text-align: left;
+   background-color: #dddddd;
+   margin-top: 40px;
+   
+}
+.list1 h4{
+   font-size: 25px;
+
+}
+.list1 h1{
+margin: 20px 0px;
+font-size: 50px;
+}
+.list1 h5{
+    margin: 10px 0px;
+    font-size: 25px;
+    font-size: 20px;
+
+}
+.list1 p{
+border-bottom: 5px solid whitesmoke;
+opacity: 0.6;
+}
+.price-content{
+padding: 20px 0px;
+text-align: left;
+margin-left: 10px;
+}
+.price-content ul{
+    list-style: none;
+    padding: 20px 0px;
+    margin-top: 12px;
+   
+}
+.price-content ul li{
+font-size: 25px;
+padding: 20px 0px;
+color:gray;
+
+
+}
+.price-content ul li span{
+
+}
+.price-btn{
+    text-align: left;
+   
+}
+.btn-free{
+    
+        
+        padding: 15px 90px;
+        border: 1px black solid;
+        color: gray;
+       
+        background-color: white;
+        border-radius: 10px;
+        display: inline-block;
+        color: #6278df;
+        font-size: 20px;
+        margin-top: 20px;
+        padding-left: 30px;
+        margin-left: 10px;
+}
+.team-section{
+padding: 50px 0px;
+}
+.team-section h1{
+    margin-bottom: 50px;
+}
+.team-photo{}
+.photo{
+    min-width: 25%;
+    box-sizing: border-box;
+    padding: 10px 0px;
+   
+}
+.photo img{
+   
+}
+.photo h2{
+margin: 10px 0px;
+font-weight: 35px;
+}
+.photo h3{
+
+}
+.newsletter{
+padding: 50px 0px;
+}
+.newsletter h3{
+margin-bottom: 40px;
+font-size: 30px;
+color: gray;
+}
+.newsletter h1{
+margin-bottom: 50px;
+font-size: 50px;
+font-weight: 400;
+}
+.letter-input{
+
+}
+.email{
+ padding: 15px 80px; 
+ font-size: 25px;  
+ border-radius: 10px;
+ display:inline-block;
+ background-color: #ffffff;
+ margin-right: 30px;
+ 
+}
+.button{
+    border-radius: 10px;
+    padding: 15px 90px;
+    font-size: 25px;
+    display: inline-block;
+    background-color: blue;
+   
+    color: #dddddd;
+}
+.blog{
+padding: 60px 0px;
+background-color: antiquewhite;
+margin: 50px 10px;
+}
+.blog-left{
+    width: 48%;
+    margin-left: 15px;
+ 
+}
+.blog-left h1{
+    font-size: 50px;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.blog-left h2{
+    margin-bottom: 20px;
+}
+.blog-right h2{
+    margin-bottom: 20px;
+}
+    
+
+.blog-left p{
+    font-size: 22px;
+   word-spacing: 0.4em;
+   margin-left: 10px;
+color: gray;
+}
+.blog-right{
+    width: 48%;
+}
+.blog-right p{
+    font-size: 22px;
+   word-spacing: 0.3em;
+   margin-left: 20px;
+   color: gray;
+   text-align: left;
+  
+}
+.left-img{
+    width: 50%;
+}
+.right-img{
+    max-width: 50%;
+    margin-top: 60px;
+}
+.left-text{
+    max-width: 50%;
+    margin-top: 50px;
+  
+}
+.right-text{
+    max-width: 50%;
+    margin-top: 90px;
+
+}
+.f-back{
+    max-width: 30%;
+}
